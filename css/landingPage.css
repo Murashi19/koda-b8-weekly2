@@ -575,3 +575,249 @@ section.categories {
 	font-weight: 400;
 	color: #6b7280;
 }
+
+/* Section 3 */
+
+/* Section 3 */
+
+section.flash-deal {
+	width: 1280px;
+	max-width: 1280px;
+	height: 476px;
+	margin: 50px auto;
+	gap: 24px;
+}
+.container-flash-deal-top {
+	width: 1280px;
+	height: 32px;
+	justify-content: space-between;
+	padding: 0 16px;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+.container-left {
+	float: left;
+	width: 50%;
+	height: 32px;
+}
+.container-flash-deal {
+	display: inline-block;
+	width: 117px;
+	height: 32px;
+	border-radius: 8px;
+	background-color: #dc2626;
+	padding: 6px 12px;
+	margin: 0 auto;
+}
+.container-flash-deal svg,
+.container-flash-deal span {
+	width: 16px;
+	height: 16px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	color: #fff;
+	vertical-align: middle;
+}
+
+.time-flash-deal {
+	display: inline-block;
+	width: 238px;
+	height: 24px;
+	gap: 4px;
+	margin-left: 16px;
+}
+.time-flash-deal svg {
+	width: 14px;
+	height: 14px;
+	color: #6b7280;
+	vertical-align: middle;
+}
+.text-time-flash-deal {
+	width: 103px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	color: #6b7280;
+	vertical-align: middle;
+}
+
+.time-countdown {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	color: #6b7280;
+	vertical-align: middle;
+}
+
+.items-flash-deal {
+	width: 100%;
+	height: 420px;
+	justify-content: space-between;
+	padding: 0 16px;
+	display: inline-block;
+}
+
+/* PERBAIKAN: item1 berjejer rapi dengan margin antar item */
+.item1 {
+	position: relative;
+	height: 420px;
+	display: inline-block;
+	vertical-align: top;
+	width: calc((100% - 48px) / 4);
+	margin-right: 10px;
+	border-radius: 12px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	font-size: 14px;
+}
+
+.item1:last-child {
+	margin-right: 0;
+}
+
+.item1-top {
+	display: block;
+	width: 298px;
+	height: 298px;
+	/* PERBAIKAN: height proporsional, bukan hardcoded */
+	padding-bottom: 75%;
+	background-color: #f3f4f6;
+	border-radius: 12px 12px 0 0;
+	position: relative;
+}
+
+.item1-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.item1-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px 12px 0 0;
+	object-fit: cover;
+}
+
+.item-discount {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+	height: 24px;
+	border-radius: 20px;
+	background-color: #dc2626;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+	color: #fff;
+	text-align: center;
+	padding: 4px 8px;
+}
+
+.item-wishlist {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+	fill: red;
+	opacity: 0.5;
+	stroke-width: 0;
+}
+
+.item-wishlist:hover {
+	opacity: 1;
+}
+
+.item1-bottom {
+	display: block;
+	width: 100%;
+	border-radius: 0 0 12px 12px;
+	padding: 12px;
+}
+
+.jenis-item {
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	color: #6b7280;
+	/* PERBAIKAN: hapus padding 12px yang geser teks ke kanan */
+	margin-bottom: 4px;
+}
+
+.name-item {
+	display: block;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 500;
+	font-family: "Inter", sans-serif;
+	color: #111827;
+	margin-bottom: 6px;
+}
+
+.price-item {
+	font-family: "Inter", sans-serif;
+}
+
+.discount-price {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #1a73e8;
+	margin-right: 6px;
+}
+
+.regular-price {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #6b7280;
+	text-decoration: line-through;
+}
+
+.stars {
+	display: block;
+	margin-bottom: 6px;
+}
+
+.stars svg {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.rate {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	color: #374151;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+.review {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	font-family: "Inter", sans-serif;
+	color: #6b7280;
+	margin-left: 2px;
+}
