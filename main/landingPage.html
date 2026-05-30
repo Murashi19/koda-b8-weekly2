@@ -92,7 +92,9 @@
 			<div class="header-middle">
 				<!-- LOGO -->
 				<div class="container-logo">
-					<div class="logo">
+					<div
+						class="logo"
+						href="#">
 						<svg
 							width="32"
 							height="32"
@@ -350,5 +352,64 @@
 				</div>
 			</nav>
 		</header>
+		<main>
+			<!-- Section 1 / Hero -->
+			<section class="hero">
+				<div class="bg-hero">
+					<div class="container-content-hero">
+						<div class="content-hero">
+							<div class="heading1">Elektronik Pilihan, Harga Special</div>
+							<div class="description">Laptop, smartphone, headphone, dan masih banyak lagi dengan diskon hingga 40%</div>
+							<button
+								class="button-content"
+								type="submit">
+								Lihat Promo
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="lucide lucide-arrow-right-icon lucide-arrow-right">
+									<path d="M5 12h14" />
+									<path d="m12 5 7 7-7 7" />
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="hero-dots">
+						<div class="hero-dot"></div>
+						<div class="hero-dot active"></div>
+						<div class="hero-dot"></div>
+					</div>
+					<div
+						class="hero-arrow right"
+						onclick="changeSlide(1)">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round">
+							<polyline points="9 18 15 12 9 6" />
+						</svg>
+					</div>
+					<div
+						class="hero-arrow left"
+						onclick="changeSlide(-1)">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round">
+							<polyline points="15 18 9 12 15 6" />
+						</svg>
+					</div>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
