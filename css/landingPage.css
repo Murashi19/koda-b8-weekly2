@@ -668,7 +668,6 @@ section.flash-deal {
 	position: relative;
 	height: 420px;
 	display: inline-block;
-	vertical-align: top;
 	width: calc((100% - 48px) / 4);
 	margin-right: 10px;
 	border-radius: 12px;
@@ -685,7 +684,6 @@ section.flash-deal {
 	display: block;
 	width: 298px;
 	height: 298px;
-	/* PERBAIKAN: height proporsional, bukan hardcoded */
 	padding-bottom: 75%;
 	background-color: #f3f4f6;
 	border-radius: 12px 12px 0 0;
@@ -820,4 +818,121 @@ section.flash-deal {
 	font-family: "Inter", sans-serif;
 	color: #6b7280;
 	margin-left: 2px;
+}
+
+.card-promotion {
+	width: 1248px;
+	height: 176px;
+	margin: 0px auto;
+}
+
+.card-promo1 {
+	display: inline-block;
+	width: 600px;
+	height: 176px;
+	border-radius: 16px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.card-promo1-img {
+	width: 600px;
+	height: 176px;
+	vertical-align: middle;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+
+.card-promo1-img {
+	width: 100%;
+	height: 176px;
+	border-radius: 16px;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 70%), url("/img/card-img.png");
+	background-position: center;
+}
+.card-promo1-text,
+.card-promo2-text {
+	width: 160px;
+	height: 86px;
+	padding-top: 45px;
+}
+.text-promo {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+.text-discount {
+	width: 160px;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.text-belanja {
+	width: 141px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	border: 1px solid #ffff;
+	padding: 4px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.text-promo,
+.text-discount,
+.text-belanja,
+.text-choice,
+.text-price,
+.text-product {
+	display: block;
+	font-family: "Inter", sans-serif;
+	color: #ffffffcc;
+}
+.card-promo2 {
+	display: inline-block;
+	width: 600px;
+	height: 176px;
+	border-radius: 16px;
+	vertical-align: middle;
+}
+
+.card-promo2-img {
+	width: 600px;
+	height: 176px;
+	vertical-align: middle;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+.card-promo2-img {
+	width: 100%;
+	height: 176px;
+	border-radius: 16px;
+	background-image: linear-gradient(to left, #1c398e00, #1c398ecc 70%), url("/img/card2-img.png");
+	background-position: center;
+}
+
+.text-choice {
+	width: 141px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+.text-price {
+	width: 160px;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.text-product {
+	width: 110px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	border: 1px solid #ffff;
+	padding: 4px 10px;
+	border-radius: 10px;
+	cursor: pointer;
 }
