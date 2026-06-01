@@ -688,7 +688,8 @@ section.flash-deal {
 .card4-top,
 .card5-top,
 .card6-top,
-.card7-top {
+.card7-top,
+.best1-top {
 	width: 298px;
 	height: 298px;
 	margin: 0 auto;
@@ -978,12 +979,53 @@ section.flash-deal {
 	background-image: url("/img/item1.png");
 }
 
+.card2-top {
+	background-image: url("/img/item2.png");
+}
+
+.card3-top {
+	background-image: url("/img/new-product1.png");
+}
+
+.card4-top {
+	background-image: url("/img/new-product2.png");
+}
+
+.card5-top {
+	background-image: url("/img/new-product3.png");
+}
+
+.card6-top {
+	background-image: url("/img/new-product4.png");
+}
+.card7-top {
+	background-image: url("/img/new-product5.png");
+}
+
+/* Badge Discount */
 .badge {
 	display: inline-block;
 	width: 45px;
 	height: 24px;
 	border-radius: 16777200px;
 	background-color: #dc2626;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 4px;
+	color: white;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+	line-height: 16px;
+}
+
+/* Badge New */
+.badge-new {
+	display: inline-block;
+	width: 45px;
+	height: 24px;
+	border-radius: 16777200px;
+	background-color: #1a73e8;
 	text-align: center;
 	vertical-align: middle;
 	padding-top: 4px;
@@ -1029,6 +1071,9 @@ section.flash-deal {
 	height: 30px;
 }
 
+.best1-top {
+	background-image: url("/img/best-product1.png");
+}
 /* Section 7 - Card Advantage Ecommerce */
 
 .card-advantage {
