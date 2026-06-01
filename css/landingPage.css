@@ -7,6 +7,8 @@
 body {
 	background-color: #f5f5f5;
 	font-family: "Inter", sans-serif;
+	max-width: 1728px;
+	margin: 0 auto;
 }
 
 header {
@@ -128,8 +130,8 @@ header {
 .logo span {
 	padding-left: 8px;
 	font-size: 16px;
-	font-weight: 600;
-	color: #111;
+	font-weight: 500;
+	color: #111827;
 	white-space: nowrap;
 }
 
@@ -306,13 +308,42 @@ nav {
 	font-weight: 600;
 }
 
+/* ======= Button Chat ======= */
+button {
+	border: none;
+	margin: 0 auto;
+}
+.button-chat {
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	background-color: #1a73e8;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 20;
+	margin: 0 auto;
+}
+.button-chat:hover {
+	background-color: #0d63e4;
+}
+
+.button-chat svg {
+	width: 20px;
+	height: 20px;
+	color: #fff;
+}
+
 /*======= MAIN =========*/
 
 main {
 	padding-top: 135px;
 	width: 1728px;
 	height: 3670px;
-	margin: 0 auto;
 	margin-bottom: 50px;
 }
 
@@ -369,8 +400,8 @@ section.hero {
 	color: #ffffff;
 	margin-bottom: 16px;
 }
-.description {
-	width: 512px;
+.subheading {
+	width: 500px;
 	height: 59px;
 	font-size: 18px;
 	line-height: 29.25px;
@@ -1138,8 +1169,9 @@ section.flash-deal {
 	color: #6b7280;
 }
 
+/* Footer */
 footer {
-	width: 100%;
+	width: 1728px;
 	height: 556px;
 	margin-top: 100px;
 	padding-top: 64px;
