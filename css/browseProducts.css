@@ -335,7 +335,7 @@ button {
 	color: #fff;
 }
 
-/* ======== MAIN ======== */
+/* ================= MAIN =================*/
 main {
 	width: 1728px;
 	height: 1366.75px;
@@ -346,6 +346,9 @@ main {
 }
 
 /* Nav Breadcrumb */
+nav {
+	border: none;
+}
 .breadcrumb {
 	margin-top: 24px;
 	margin-bottom: 24px;
@@ -376,6 +379,7 @@ main {
 	margin: 0 6px;
 }
 
+/* main content */
 .title-header {
 	font-size: 24px;
 	line-height: 36px;
@@ -734,7 +738,7 @@ aside {
 	background-color: #1a73e8;
 	color: #ffffff;
 }
-/* ======== FOOTER ======== */
+/* ================ FOOTER ================== */
 footer {
 	width: 1728px;
 	height: 556px;
